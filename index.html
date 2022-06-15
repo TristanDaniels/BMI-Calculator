@@ -13,12 +13,10 @@
   <body>
     <form class="form" onsubmit="event.preventDefault();bmicalc()">
       <label>Weight</label>
-      <input type="number" name="weight" id="weight" />
+      <input type="text" name="weight" placeholder="(kg)" id="weight" />
       <label>Height</label>
-      <input type="number" name="height" id="height" />
-      <button class="button btn-primary">
-        Find out how much you should exercise
-      </button>
+      <input type="text" name="height" placeholder="(metres)" id="height" />
+      <button class="button btn-primary">Calculate your BMI</button>
     </form>
     <p id="answer"></p>
     <!-- scripts -->
